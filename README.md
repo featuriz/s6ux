@@ -37,8 +37,11 @@
 # UX  
 `composer require symfony/stimulus-bundle`  
 
+## CROPPERJS
+`composer require ux symfony/ux-cropperjs`  
+
 # YARN  
-`yarn install`  
+`yarn install --force`  
 `yarn dev`  
 
 
