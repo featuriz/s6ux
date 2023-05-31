@@ -37,17 +37,20 @@
 # UX  
 `composer require symfony/stimulus-bundle`  
 
-## CROPPERJS
+## CROPPERJS  
 `composer require ux symfony/ux-cropperjs`  
 
-## CHARTJS 
+## CHARTJS  
 `composer require symfony/ux-chartjs`  
 
-## LazyImage
+## LazyImage  
 `composer require symfony/ux-lazy-image`  
 
-## TYPED
-`composer require symfony/ux-typed`
+## TYPED  
+`composer require symfony/ux-typed`  
+
+## DROPZONE  
+`composer require symfony/ux-dropzone`  
 
 # YARN  
 `yarn install --force`  
