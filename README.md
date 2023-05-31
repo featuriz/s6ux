@@ -46,6 +46,9 @@
 ## LazyImage
 `composer require symfony/ux-lazy-image`  
 
+## TYPED
+`composer require symfony/ux-typed`
+
 # YARN  
 `yarn install --force`  
 `yarn dev`  
