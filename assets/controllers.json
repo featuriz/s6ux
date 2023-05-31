@@ -1,5 +1,11 @@
 {
     "controllers": {
+        "@symfony/ux-chartjs": {
+            "chart": {
+                "enabled": true,
+                "fetch": "eager"
+            }
+        },
         "@symfony/ux-cropperjs": {
             "cropper": {
                 "enabled": true,

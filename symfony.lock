@@ -112,6 +112,9 @@
             "templates/base.html.twig"
         ]
     },
+    "symfony/ux-chartjs": {
+        "version": "v2.9.1"
+    },
     "symfony/ux-cropperjs": {
         "version": "v2.9.1"
     },

@@ -40,6 +40,9 @@
 ## CROPPERJS
 `composer require ux symfony/ux-cropperjs`  
 
+## CHARTJS 
+`composer require symfony/ux-chartjs`  
+
 # YARN  
 `yarn install --force`  
 `yarn dev`  
