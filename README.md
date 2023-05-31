@@ -43,6 +43,9 @@
 ## CHARTJS 
 `composer require symfony/ux-chartjs`  
 
+## LazyImage
+`composer require symfony/ux-lazy-image`  
+
 # YARN  
 `yarn install --force`  
 `yarn dev`  

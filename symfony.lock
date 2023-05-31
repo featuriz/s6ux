@@ -118,6 +118,9 @@
     "symfony/ux-cropperjs": {
         "version": "v2.9.1"
     },
+    "symfony/ux-lazy-image": {
+        "version": "v2.9.1"
+    },
     "symfony/validator": {
         "version": "6.3",
         "recipe": {

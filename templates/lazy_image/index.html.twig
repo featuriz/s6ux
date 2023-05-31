@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello LazyImageController!{% endblock %}
+
+{% block body %}
+
+    <div class="container my-5 p-5">
+
+        <div class="py-5" style="margin-bottom: 1000px">
+            <img
+                src="{{ data_uri_thumbnail(rootDir~asset('public/images/galaxy.jpg'), 40, 30) }}"
+                {{ stimulus_controller('symfony/ux-lazy-image/lazy-image', { src: asset('images/galaxy.jpg') }) }}
+                alt="A blurhash image that is replaced by the real image on load"
+                width="578"
+                height="275"
+                style="border-radius: 5px;"
+                >
+            <p>This image is cropped using cropjs. To view, please scroll down.</p>
+        </div>
+
+        <div class="py-5">
+            <img
+                src="{{ data_uri_thumbnail(rootDir~asset('public/uploads/new.jpg'), 40, 30) }}"
+                {{ stimulus_controller('symfony/ux-lazy-image/lazy-image', { src: asset('uploads/new.jpg') }) }}
+                alt="A blurhash image that is replaced by the real image on load"
+                width="578"
+                height="275"
+                style="border-radius: 5px;"
+                >
+        </div>
+
+    </div>
+
+{% endblock %}
