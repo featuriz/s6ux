@@ -28,7 +28,7 @@
 `php bin/console doctrine:migrations:migrate`  
 `php bin/console make:entity --regenerate` // generate the getter & setter methods for you  
 
-## SQL  
+### SQL  
 `php bin/console dbal:run-sql 'SELECT * FROM product' `  
 
 # Validation  
@@ -37,19 +37,19 @@
 # UX  
 `composer require symfony/stimulus-bundle`  
 
-## CROPPERJS  
+### CROPPERJS  
 `composer require ux symfony/ux-cropperjs`  
 
-## CHARTJS  
+### CHARTJS  
 `composer require symfony/ux-chartjs`  
 
-## LazyImage  
+### LazyImage  
 `composer require symfony/ux-lazy-image`  
 
-## TYPED  
+### TYPED  
 `composer require symfony/ux-typed`  
 
-## DROPZONE  
+### DROPZONE  
 `composer require symfony/ux-dropzone`  
 
 # YARN  
@@ -63,27 +63,27 @@
 `php bin/console router:match /lucky/number/8`  
 `php bin/console debug:autowiring`  
 
-## Validation  
+### Validation  
 `php bin/console debug:validator 'App\Entity\SomeClass' `  
 `php bin/console debug:validator src/Entity`  
 
-## LINT: TEMPLATES  
+### LINT: TEMPLATES  
 `php bin/console lint:twig`  
 `php bin/console lint:twig templates/email/`  
 `php bin/console lint:twig templates/article/recent_list.html.twig`  
 
-## TWIG  
+### TWIG  
 `php bin/console debug:twig`  
 `php bin/console debug:twig --filter=date`  
 `php bin/console debug:twig @Twig/Exception/error.html.twig`  
 
-### The Dump Twig Utilities  
+##### The Dump Twig Utilities  
 `composer require --dev symfony/debug-bundle`  
 | Then, use either the {% dump %} tag or the {{ dump() }} function depending on your needs  
 `{% dump articles %}` OR `{{ dump(article) }}`  
 
 
-## Environment  
+### Environment  
 `php bin/console command_name` :: `APP_ENV=prod php bin/console command_name`  
 `composer dump-env prod `  
 | After running this command, Symfony will load the .env.local.php file to get the environment variables and will not spend time parsing the .env files.  
